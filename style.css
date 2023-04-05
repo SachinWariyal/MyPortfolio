@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:ital,wght@1,300&family=Nunito&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:ital,wght@1,300&family=Nunito&family=Source+Code+Pro:wght@300&family=Ubuntu&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(205, 202, 202);
+    /* width: 15vw; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100%;
+    position: absolute;
+    /* transition: transform 0.3s ease-in; */
+    
+}
+.main{
+    background-color: rgb(135, 191, 201);
+    width: 90vw;
+    margin-left: 11vw;
+    height: 100vh;
+    overflow-y: scroll
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar nav{
+    padding: 3vw;
+    font-size: 2vh;
+    background-color: rgb(205, 202, 202);
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+    background-color: rgb(205, 202, 202);
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(205, 202, 202);
+}
+
+.sidebar nav li a:hover{
+    color: white;
+}
+
+.sidebar nav ul li:hover{
+    color: white;
+}
+
+.infoContainer{
+    /* background-color: rgb(30 104 207); */
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img{
+    height: 60vh;
+    border-radius: 30px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 35px;
+}
+.moreabout{
+    font-size: 22px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 10px 14px;
+    background-color: dodgerblue;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin:0 3px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color:white;
+    color: black;
+}
+
+/* styling Contact Page--------------------------------------------------------------------------------------------------- */
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 40px;
+    padding-top: 100px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align:left;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 15vw;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 6px 0 0 0 ;   
+}
+#emailHelp{
+    font-size: 15px;
+    color: green;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 30px;
+    margin: 2px 0;
+}
+#clientdetails{
+    width: 25vw;
+    height: 15vh;
+}
+
+.btn-primary{
+    padding:8px 10px;
+    background-color: dodgerblue;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin:0 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* blogs---------------------------------------------------------------------- */
+
+.blogItem{
+    margin: 24px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+    padding: 20px;
+    text-align: left;
+}
+.blogItem p{
+    font-family: 'PT Serif', serif;
+}
+
+.blogItem h2{
+    text-align: left;
+    padding: 20px;
+}
+.btn-down{
+    padding:8px 10px;
+    background-color: dodgerblue;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin:0 3px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Intro------------------------------------------------------------------------------------- */
+
+
+.skills{
+    width: 300px;
+    height: 6px;
+    background-color: red;
+}
+.skillContainer{
+    padding: 12px;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.eighty{
+    width: 60vw;
+}
+.fifty{
+    width: 40vw;
+}
+.sixty{
+    width: 45vw;
+}
+.fourty{
+    width: 50vw;
+}
+.introContainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+    padding: 20px;
+    text-align: left;
+    font-size: 40px;
+}
+.introContainer p{
+    font-family: 'PT Serif', serif;
+    margin-left: 20px;
+    font-size: 25px;
+}
+.skill-title{
+    margin: 0 30px;
+    padding: 10px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.skill-details{
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.introContainer h2{
+    text-align: left;
+    padding: 20px;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+/* Making it responsive----------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 1615px){
+    /* *{
+        background-color:  rgb(135, 191, 201);
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    background-color:  rgb(205, 202, 202);
+}
+.cross{
+    margin-left: 6vw;
+    background-color:  rgb(205, 202, 202);
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+/* projects------------------------------------------------------------------------------------- */
+.card-body{
+    background-color:rgb(222, 222, 212);
+    height: 40vh;
+    margin: 1rem 1rem;
+    padding: 1rem;
+
+}
+.projectsContainer{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+  }
+.card-title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    height: 5rem;
+    margin-left: 1rem;
+}
+.card-text{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 1rem;
+}
+
+
+
